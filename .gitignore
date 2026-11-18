@@ -1,0 +1,45 @@
+# ============================================================
+# Private repository .gitignore
+# Access-controlled; labels and result summaries ARE tracked.
+# Large regenerable artefacts and raw patient data are NOT.
+# ============================================================
+
+# --- raw data (huge, patient-derived) ---
+ahen_data/
+filtered_tsv/
+filtered_tsv_2/
+*.tsv
+*.mzML
+
+# --- large regenerable arrays / image sets / embeddings ---
+profiles/
+threshold_profiles/
+images/
+images224/
+images_v2_occ_tic/
+images_picked/
+cached_images/
+embeddings/
+embeddings_detect/
+embeddings_severity/
+second_cohort/
+*.npy
+*.pt
+
+# --- but DO keep a small curated sample of images for illustration ---
+!examples/
+!examples/**
+
+# --- labels and result summaries ARE tracked on this private repo ---
+# (labels/ and *.json results are intentionally NOT ignored)
+
+# --- python / jupyter ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.DS_Store
+mlruns/
+logs/
