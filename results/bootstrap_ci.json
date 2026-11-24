@@ -1,0 +1,86 @@
+[
+  {
+    "task": "severity_nondiabetic",
+    "features": "profile_1d",
+    "n": 359,
+    "auc": 0.6406557037956356,
+    "ci_lo": 0.5624710760592897,
+    "ci_hi": 0.7155386392509226,
+    "id_auc": 0.518667907746406,
+    "margin": 0.1219877960492296,
+    "beats_id": true,
+    "above_chance": true
+  },
+  {
+    "task": "positive_control_diabetes",
+    "features": "map_2d",
+    "n": 596,
+    "auc": 0.7753344968004654,
+    "ci_lo": 0.7305887911129016,
+    "ci_hi": 0.8146748777012874,
+    "id_auc": 0.6430741387111369,
+    "margin": 0.13226035808932846,
+    "beats_id": true,
+    "above_chance": true
+  },
+  {
+    "task": "severity_all",
+    "features": "map_2d",
+    "n": 510,
+    "auc": 0.740976013936986,
+    "ci_lo": 0.6902371225219065,
+    "ci_hi": 0.7907312703291828,
+    "id_auc": 0.53515052369925,
+    "margin": 0.205825490237736,
+    "beats_id": true,
+    "above_chance": true
+  },
+  {
+    "task": "dkd_vs_nondiabetic_mckd",
+    "features": "profile_1d",
+    "n": 121,
+    "auc": 0.6950413223140496,
+    "ci_lo": 0.6043890200708382,
+    "ci_hi": 0.7849067903023276,
+    "id_auc": 0.5650137741046832,
+    "margin": 0.13002754820936635,
+    "beats_id": true,
+    "above_chance": true
+  },
+  {
+    "task": "detect_any_ckd",
+    "features": "map_2d",
+    "n": 596,
+    "auc": 0.7174874601003192,
+    "ci_lo": 0.663242440724866,
+    "ci_hi": 0.7744507750001538,
+    "id_auc": 0.7191746466028272,
+    "margin": -0.0016871865025079869,
+    "beats_id": false,
+    "above_chance": true
+  },
+  {
+    "task": "matched_nondiabetic",
+    "features": "profile_1d",
+    "n": 92,
+    "auc": 0.5009451795841209,
+    "ci_lo": 0.3845817580340265,
+    "ci_hi": 0.6245891472868217,
+    "id_auc": 0.501890359168242,
+    "margin": -0.000945179584121103,
+    "beats_id": false,
+    "above_chance": false
+  },
+  {
+    "task": "progression",
+    "features": "map_2d",
+    "n": 596,
+    "auc": 0.730265332753371,
+    "ci_lo": 0.6771200004259298,
+    "ci_hi": 0.7780383555589389,
+    "id_auc": 0.5768247063940843,
+    "margin": 0.15344062635928668,
+    "beats_id": true,
+    "above_chance": true
+  }
+]
